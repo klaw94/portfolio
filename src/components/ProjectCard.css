@@ -1,0 +1,34 @@
+.projectCard {
+  margin: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+
+.projectCard:hover {
+  z-index: 90000;
+  transform: scale(1.2);
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+h4 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+span {
+  font-size: 10px;
+}
+
+.languages {
+  margin-left: 10px;
+}
