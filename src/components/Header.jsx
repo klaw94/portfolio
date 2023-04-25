@@ -1,13 +1,7 @@
 import React from "react";
 import "./Header.css";
-import {
-  Routes,
-  Route,
-  Link,
-  useRoutes,
-  NavLink,
-  useLocation,
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import github from "../assets/github.png";
 
 export default function Header() {
   return (
@@ -36,20 +30,16 @@ export default function Header() {
               About
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              className="navLink"
-              style={({ isActive }) => {
-                return isActive ? { fontWeight: 700 } : {};
-              }}
-              to="/projects"
-            >
-              Work
-            </NavLink>
-          </li>
         </ul>
       </div>
       <h1>Claudia Sánchez Jiménez</h1>
+      <a
+        href="https://github.com/klaw94"
+        target="_blank"
+        className="headerLogo"
+      >
+        <img src={github} />
+      </a>
     </nav>
   );
 }

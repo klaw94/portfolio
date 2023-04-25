@@ -11,3 +11,30 @@
 .languagesDiv {
   font-size: 13px;
 }
+
+.projectPage p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.linksDiv {
+  text-align: center;
+
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.spanLink {
+  font-size: 14px;
+}
+
+.spanRepo {
+  font-size: 14px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

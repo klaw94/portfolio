@@ -1,0 +1,39 @@
+.aboutPage {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutPage img {
+  margin-left: 200px;
+  margin-top: 70px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.aboutPage p {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+.aboutPage span {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutPage img {
+    margin: 20px;
+    min-width: 30%;
+  }
+
+  .aboutPage p {
+    margin: 20px;
+    margin-top: 30px;
+  }
+  .aboutPage span {
+    margin: 20px;
+    margin-top: 20px;
+  }
+}

@@ -32,21 +32,27 @@ export default function ProjectPage(props) {
   );
 
   return (
-    <div className="projectPage">
-      <h1>{project.title}</h1>
-      <img src={`../../${project.photo}`} />
-      <p>{project.description}</p>
-      {project.link && (
-        <span>
-          Check it out:{" "}
-          <a href={project.link} target="_blank">
-            Click Here
-          </a>
-        </span>
-      )}
+    <>
+      <div className="projectPage">
+        <h1>{project.title}</h1>
+        <img src={`../../${project.photo}`} />
+        <p>{project.description}</p>
+      </div>
+      <div className="linksDiv">
+        {project.link && (
+          <span className="spanLink">
+            Check it out:{" "}
+            <a href={project.link} target="_blank">
+              Click Here
+            </a>
+          </span>
+        )}
 
-      {project.githubRepo && <span>Check out the code: {visualRepo}</span>}
-      <div className="languagesDiv">{visualLanguages}</div>
-    </div>
+        {project.githubRepo && (
+          <span className="spanRepo">Check out the code: {visualRepo}</span>
+        )}
+        <div className="languagesDiv">{visualLanguages}</div>
+      </div>
+    </>
   );
 }
