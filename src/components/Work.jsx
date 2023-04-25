@@ -10,8 +10,8 @@ export default function Work() {
   ));
 
   return (
-    <div>
-      <h1>Work</h1>
+    <div className="workPage">
+      <h1>My Projects</h1>
       <div className="projectsDiv">{visualProjects}</div>
     </div>
   );

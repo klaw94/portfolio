@@ -13,10 +13,8 @@ export default function ProjectCard(props) {
   });
   return (
     <Link
-      to={{
-        pathname: `/projects/${props.project.title}`,
-        state: props.project,
-      }}
+      to={`/projects/${props.project.title}`}
+      state={{ data: props.project }}
       style={{ textDecoration: "none" }}
     >
       <div className="projectCard">

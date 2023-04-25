@@ -6,7 +6,7 @@
   /* justify-content: space-evenly; */
 }
 
-h1 {
+.navbar h1 {
   margin-left: 25%;
 }
 
@@ -20,14 +20,14 @@ h1 {
   align-self: flex-start;
 }
 
-ul {
+.navbar ul {
   left: 10px;
   display: flex;
   list-style: none;
   margin-top: 25px;
 }
 
-li {
+.navbar li {
   margin-left: 10px;
   margin-right: 10px;
 }

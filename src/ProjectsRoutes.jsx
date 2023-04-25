@@ -9,7 +9,7 @@ export function ProjectsRoutes() {
         {/* This is the default page */}
         <Route index element={<Work />} />
 
-        {/* All elements here start with /books */}
+        {/* All elements here start with / */}
         <Route path=":title" element={<ProjectPage />}></Route>
       </Routes>
     </>

@@ -29,7 +29,7 @@ const projects = [
     languages: ["Javascript", "React", "Firebase"],
   },
   {
-    title: "Blackjack",
+    title: "Black Jack",
     photo: "blackjack.png",
     description:
       "My first ever Javascript app. It is a Blackjack game made with Vanilla Javascript, HTML and CSS. Play against the computer and see who can be closer to 21! I also have a React version of it",

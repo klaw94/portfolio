@@ -1,0 +1,13 @@
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectPage img {
+  width: 75%;
+}
+.languagesDiv {
+  font-size: 13px;
+}

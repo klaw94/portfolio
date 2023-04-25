@@ -13,20 +13,20 @@
   transform: scale(1.2);
 }
 
-img {
+.projectCard img {
   width: 400px;
   height: 200px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
 
-h4 {
+.projectCard h4 {
   margin-top: 3px;
   margin-bottom: 3px;
   margin-left: 10px;
 }
 
-span {
+.projectCard span {
   font-size: 10px;
 }
 
