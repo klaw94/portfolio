@@ -20,7 +20,7 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive ? { fontWeight: 700 } : {};
               }}
-              to="/"
+              to="/projects"
             >
               Work
             </NavLink>
@@ -42,7 +42,7 @@ export default function Header() {
               style={({ isActive }) => {
                 return isActive ? { fontWeight: 700 } : {};
               }}
-              to="/"
+              to="/projects"
             >
               Work
             </NavLink>

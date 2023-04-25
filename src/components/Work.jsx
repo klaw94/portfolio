@@ -6,12 +6,7 @@ import "./Work.css";
 
 export default function Work() {
   const visualProjects = projects.map((project) => (
-    <ProjectCard
-      key={nanoid()}
-      photo={project.photo}
-      title={project.title}
-      languages={project.languages}
-    />
+    <ProjectCard key={nanoid()} project={project} />
   ));
 
   return (
