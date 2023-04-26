@@ -3,7 +3,7 @@ const projects = [
     title: "Netflix Clone",
     photo: "netflix-clone.png",
     description:
-      "Front end in React, api in Java Spring Boot and database in PostgreSQL. The project is a clone of Netflix where users can create a watchlist and mark films as favorites. The page also includes a search function and a basic algorithm that places users' favorite genres earlier. ",
+      " Last Christmas I worked on a clone of Netflix. It was my first full-stack multi-language application. I made a front end in React, Javascript, HTML and CSS and I added an api in Java with Spring Boot. The api connects the front end with a database in PostgreSQL. The application also consumes the TMDB api, which gives access to a chuge catalogue of films. I use this catalogue to display the films in the front end and store in my own database your film preferences (liked films, loved films, your watchlist...). The page also includes a search function and a basic algorithm that places users' favorite genres on top of the website. \n This project helped me better understand the structures of apis and allowed me to really work in my CSS skills. It was nice to have a design that I could copy. It was a challenge to learn new structures and effects. ",
     link: "https://netflixclone-57465.web.app/",
     githubRepo: [
       "https://github.com/klaw94/netflixapi",
@@ -20,6 +20,34 @@ const projects = [
       "Firebase",
     ],
   },
+  {
+    title: "IT Landscape App",
+    photo: "itlandschap.png",
+    description:
+      "This is an application developed by Qquest with the goal of mapping the company's IT landscape in an easy way. The application was developed using React and Java Spring Boot and with a PostgreSQL database. My tasks consist of adding functionalities to both the front-end and the back-end. Examples of this include a secure authorization system for the back-end or basic functionality in the front-end, such as adding tasks to different apps or an administrator panel where applications can be added or updated. By contributing to this application, I have been able to achieve a steep learning curve about the structure of APIs and web applications.",
+    link: "",
+    githubRepo: ["https://gitlab.com/Reinaldinus/it-plaat-app"],
+    languages: [
+      "Javascript",
+      "React",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "render",
+      "fly.io",
+      "Firebase",
+    ],
+  },
+  {
+    title: "Pandemic",
+    photo: "pandemic.png",
+    description:
+      "The project where I am working on currently. It is an online version of the game Pandemic, where 4 players have to move through a world, collecting cubes. I am making it with React and Javascript.",
+    link: "",
+    githubRepo: ["https://github.com/klaw94/pandemic"],
+    languages: ["Javascript", "React"],
+  },
+
   {
     title: "Trivial",
     photo: "trivial.png",
@@ -81,33 +109,6 @@ const projects = [
     link: "",
     githubRepo: ["https://github.com/klaw94/MinesweeperGui"],
     languages: ["Java", "Java Swing"],
-  },
-  {
-    title: "IT Landscape App",
-    photo: "itlandschap.png",
-    description:
-      "This is an application developed by Qquest with the goal of mapping the company's IT landscape in an easy way. The application was developed using React and Java Spring Boot and with a PostgreSQL database. My tasks consist of adding functionalities to both the front-end and the back-end. Examples of this include a secure authorization system for the back-end or basic functionality in the front-end, such as adding tasks to different apps or an administrator panel where applications can be added or updated. By contributing to this application, I have been able to achieve a steep learning curve about the structure of APIs and web applications.",
-    link: "",
-    githubRepo: ["https://gitlab.com/Reinaldinus/it-plaat-app"],
-    languages: [
-      "Javascript",
-      "React",
-      "Java",
-      "Spring Boot",
-      "PostgreSQL",
-      "render",
-      "fly.io",
-      "Firebase",
-    ],
-  },
-  {
-    title: "Pandemic",
-    photo: "pandemic.png",
-    description:
-      "The project where I am working on currently. It is an online version of the game Pandemic, where 4 players have to move through a world, collecting cubes. I am making it with React and Javascript.",
-    link: "",
-    githubRepo: ["https://github.com/klaw94/pandemic"],
-    languages: ["Javascript", "React"],
   },
   {
     title: "2048",
