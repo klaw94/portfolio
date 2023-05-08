@@ -5,15 +5,20 @@
 
 .aboutPage img {
   margin-left: 200px;
-  margin-top: 70px;
+  margin-top: 100px;
   border: 2px solid black;
   border-radius: 6px;
+  max-height: 460px;
 }
 
 .aboutPage p {
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 100px;
   margin-right: 200px;
+}
+
+.pDiv {
+  margin-top: 80px;
 }
 
 .aboutPage span {
